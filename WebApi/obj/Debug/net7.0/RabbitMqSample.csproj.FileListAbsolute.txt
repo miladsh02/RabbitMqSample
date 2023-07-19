@@ -64,3 +64,4 @@ C:\Users\Milad\Desktop\RabbitMqSample\WebApi\obj\Debug\net7.0\refint\RabbitMqSam
 C:\Users\Milad\Desktop\RabbitMqSample\WebApi\obj\Debug\net7.0\RabbitMqSample.pdb
 C:\Users\Milad\Desktop\RabbitMqSample\WebApi\obj\Debug\net7.0\RabbitMqSample.genruntimeconfig.cache
 C:\Users\Milad\Desktop\RabbitMqSample\WebApi\obj\Debug\net7.0\ref\RabbitMqSample.dll
+C:\Users\Milad\Desktop\RabbitMqSample\WebApi\bin\Debug\net7.0\RabbitMQ.Client.dll

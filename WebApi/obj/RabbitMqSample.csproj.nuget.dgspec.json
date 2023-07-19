@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {}
+    "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {}
   },
   "projects": {
-    "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {
+    "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
+        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
         "projectName": "RabbitMqSample",
-        "projectPath": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
+        "projectPath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\obj\\",
+        "outputPath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -47,6 +47,10 @@
             "Microsoft.AspNetCore.OpenApi": {
               "target": "Package",
               "version": "[7.0.3, )"
+            },
+            "RabbitMq.client": {
+              "target": "Package",
+              "version": "[6.5.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",
