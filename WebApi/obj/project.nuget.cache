@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LJf7gCVObiX6ouqwCSHE+Z5JorNeZMRqNw+y0hMfSFxKb1/BOui3d1pGn0WetjLh6d2tibkadHGr6Ws9znYhuQ==",
+  "dgSpecHash": "6HvtZbCofQE4T56onXoyqwb0qjVOTa02dlvK8dj+jMqIYqfHdqm1/jhjYvkuCNbul1K3B11ZEKEEXopN23hdeQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\RabbitMqSample.csproj",
+  "projectFilePath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milad\\.nuget\\packages\\microsoft.aspnetcore.openapi\\7.0.3\\microsoft.aspnetcore.openapi.7.0.3.nupkg.sha512",
     "C:\\Users\\Milad\\.nuget\\packages\\microsoft.extensions.apidescription.server\\6.0.5\\microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
