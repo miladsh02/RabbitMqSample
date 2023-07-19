@@ -24,8 +24,6 @@ namespace WebApi.Services
             var jsonString=JsonSerializer.Serialize(message);
             var body =Encoding.UTF8.GetBytes(jsonString);
             channel.BasicPublish("","MessageQueue",body:body);
-            
-            throw new NotImplementedException();
         }
     }
 }
