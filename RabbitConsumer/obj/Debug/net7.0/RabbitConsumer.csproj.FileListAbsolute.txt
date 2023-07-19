@@ -1,0 +1,15 @@
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\bin\Debug\net7.0\RabbitConsumer.exe
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\bin\Debug\net7.0\RabbitConsumer.deps.json
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\bin\Debug\net7.0\RabbitConsumer.runtimeconfig.json
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\bin\Debug\net7.0\RabbitConsumer.dll
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\bin\Debug\net7.0\RabbitConsumer.pdb
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.csproj.AssemblyReference.cache
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.AssemblyInfoInputs.cache
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.AssemblyInfo.cs
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.csproj.CoreCompileInputs.cache
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.dll
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\refint\RabbitConsumer.dll
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.pdb
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\RabbitConsumer.genruntimeconfig.cache
+C:\Users\Milad\Desktop\RabbitMqSample\RabbitConsumer\obj\Debug\net7.0\ref\RabbitConsumer.dll
