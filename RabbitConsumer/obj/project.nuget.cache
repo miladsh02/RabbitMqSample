@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OMTGEYyeTUrA3Hsx4H5e+AhbqeufyFyVgHy2xu+ndhBMGaYd54UI29SXdKx9FjsH0syPlWHo3iquPRQe95g8pw==",
+  "dgSpecHash": "xfDIHc5uVlDfZgIa9pZzfN3u7rXpA+6ao9vfztKKdYD3CCIFF+stCkqEkNFIkISS5wY1rtYifJKyUtQHy4e+ew==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\RabbitConsumer\\RabbitConsumer.csproj",
+  "projectFilePath": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\RabbitConsumer\\RabbitConsumer.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
