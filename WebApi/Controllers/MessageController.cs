@@ -9,13 +9,13 @@ namespace RabbitMqSample.Controllers;
 public class MessageController : ControllerBase
 {
     private readonly IMessageProducer _messageProducer;
-    public static readonly List<MessageModel> _messages=new List<MessageModel>();
+    public static readonly List<MessageModel> _messages=new();
     public MessageController(IMessageProducer messageProducer)
     {
         _messageProducer=messageProducer;
     }
 
-    [HttpPost]
+    [HttpPost("SendMessageToQueue")]
     public IActionResult SendMessageToQueue(MessageModel message)
     {
         if(message is null)
