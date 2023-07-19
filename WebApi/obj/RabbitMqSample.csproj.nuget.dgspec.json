@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {}
+    "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {
+    "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
+        "projectUniqueName": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
         "projectName": "RabbitMqSample",
-        "projectPath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
+        "projectPath": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\RabbitMqSample.csproj",
         "packagesPath": "C:\\Users\\Milad\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\obj\\",
+        "outputPath": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\WebApi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
