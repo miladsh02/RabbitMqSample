@@ -11,10 +11,12 @@ namespace RabbitMqSample.Controllers;
 public class MessageController : ControllerBase
 {
     private readonly IMessageProducer _messageProducer;
-    private readonly MessageReceiver _messageReceiver;
-    public MessageController(IMessageProducer messageProducer)
+    private readonly IMessageReceiver _messageReceiver;
+    public MessageController(IMessageProducer messageProducer,
+                             IMessageReceiver messageReceiver)
     {
         _messageProducer=messageProducer;
+        _messageReceiver=messageReceiver;
     }
 
     [HttpPost("SendMessageToQueue")]
@@ -29,28 +31,8 @@ public class MessageController : ControllerBase
     [HttpGet("GetMessageFromQueue")]
     public IActionResult GetMessageFromQueue()
     {
-            var factory=new ConnectionFactory()
-            {
-                 HostName="localhost",
-                 UserName="admin",
-                 Password="admin",
-                 VirtualHost="/"
-            };
-
-            using var connection = factory.CreateConnection();
-            using var channel = connection.CreateModel();
-            channel.QueueDeclare("MessageQueue",durable:true,exclusive: false);
-
-            var data = channel.BasicGet("MessageQueue", autoAck: true);
-            if (data != null)
-            {
-                var message = Encoding.UTF8.GetString(data.Body.ToArray());
-                connection.Close();
-                return Ok(message);
-            }
-            connection.Close();
-            return NotFound();
-
+        var message =_messageReceiver.ReceiveMessage();
+        return Ok(message);
     }
 
     private static MessageModel GenerateRandomMessage()

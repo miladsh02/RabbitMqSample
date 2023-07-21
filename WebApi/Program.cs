@@ -9,7 +9,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddScoped<IMessageProducer,MessageProducer>();
-//builder.Services.AddScoped<IMessageReceiver,MessageReceiver>();
+builder.Services.AddScoped<IMessageReceiver,MessageReceiver>();
 
 var app = builder.Build();
 
