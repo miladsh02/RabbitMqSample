@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HQXq4IUbzzgjeG0jPVDrRU3jqpjVvsq7wGNo36cTjflesgpHiSGzrzdTlZqU4E4C39/Kn+YdwXV0KarKROijnw==",
+  "dgSpecHash": "cEUFOo/dluLrdNf17ZsUZd5qLzEphUrC75T1CiyWYGrACZj4qZXMdWFo1WYmIJojflI2su9IPFHDXwOHCvBb6w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Milad\\Desktop\\RabbitMqSample\\RabbitConsumer\\RabbitConsumer.csproj",
+  "projectFilePath": "c:\\Users\\Milad\\Desktop\\RabbitMqSample\\RabbitConsumer\\RabbitConsumer.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Milad\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
     "C:\\Users\\Milad\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
