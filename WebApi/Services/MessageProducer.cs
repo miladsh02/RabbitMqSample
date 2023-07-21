@@ -19,11 +19,13 @@ namespace WebApi.Services
             var connection=factory.CreateConnection();
 
             using var channel=connection.CreateModel();
-            channel.QueueDeclare("MessageQueue",durable:true,exclusive:true);
+            channel.QueueDeclare("MessageQueue",durable:true,exclusive: false);
 
             var jsonString=JsonSerializer.Serialize(message);
             var body =Encoding.UTF8.GetBytes(jsonString);
             channel.BasicPublish("","MessageQueue",body:body);
+            connection.Close();
+
         }
     }
 }

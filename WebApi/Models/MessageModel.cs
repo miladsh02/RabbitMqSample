@@ -4,5 +4,5 @@ public class MessageModel
 {
     public Guid Id{get; set;}
     public string Body {get;set; }=null!;
-    public DateTime creationalDate{get;set; }
+    public DateTime CreationalDate{get;set; }
 }
